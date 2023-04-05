@@ -4,3 +4,4 @@ Rails.application.routes.draw do
 
   get("/forex/:from_currency", { :controller => "currencies", :action => "second_currency" })
 end
+#this is a test
