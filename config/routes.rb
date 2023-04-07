@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   get("/forex/:from_currency", { :controller => "currencies", :action => "second_currency" })
 
-  get("/forex/:from_convert/AED", { :controller => "currencies", :action => "third_currency" })
+  get("/forex/:from_currency/:conversion", { :controller => "currencies", :action => "third_currency" })
 end
