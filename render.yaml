@@ -16,5 +16,5 @@ services:
         fromDatabase:
           name: umbrella
           property: connectionString
-      - key: e5d224930898948256f30ad903644027
+      - key: RAILS_MASTER_KEY
         sync: false
